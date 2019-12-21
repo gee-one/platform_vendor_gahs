@@ -22,3 +22,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Fonts configuration
 PRODUCT_COPY_FILES += \
     vendor/gahs/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+# Default permissions whitelist
+PRODUCT_COPY_FILES += \
+    vendor/gahs/config/default-permissions-gahs.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-gahs.xml
