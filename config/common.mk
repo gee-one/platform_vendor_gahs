@@ -28,4 +28,5 @@ PRODUCT_COPY_FILES += \
     vendor/gahs/config/default-permissions-gahs.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-gahs.xml
 
 PRODUCT_PACKAGES += \
-    ThemePicker
+    ThemePicker \
+    GahsThemesStub
