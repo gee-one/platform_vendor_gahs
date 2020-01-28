@@ -29,4 +29,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ThemePicker \
-    GahsThemesStub
+    GahsThemesStub \
+    bootanimation.zip \
+    bootanimation-dark.zip
